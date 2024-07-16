@@ -19,6 +19,7 @@ worker    = { instance_type = "<worker-compute-template>", image_id = "<image-uu
 # bootstrap                   = {instance_type    = "<bootstrap-compute-template>", image_id    = "<image-uuid-rhcos>",  availability_zone = "<availability zone>",  "count"   = 1}
 # master                      = {instance_type    = "<master-compute-template>",    image_id    = "<image-uuid-rhcos>",  availability_zone = "<availability zone>",  "count"   = 3, data_volume_count  = 0, data_volume_size  = 100}
 # worker                      = {instance_type    = "<worker-compute-template>",    image_id    = "<image-uuid-rhcos>",  availability_zone = "<availability zone>",  "count"   = 2, data_volume_count  = 0, data_volume_size  = 100}
+# worker                      = {instance_type    = "<worker-compute-template>",    image_id    = "<image-uuid-rhcos>",  availability_zone = "<availability zone>",  "count"   = 2, data_volume_count  = 0, data_volume_size  = 100}
 
 
 rhel_username                   = "root" #Set it to an appropriate username for non-root user access
